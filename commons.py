@@ -41,7 +41,7 @@ class cmd:
       exit()
     else:
       printc("Arguments are ok")
-    
+    name=content.format(name=name)
     for arg in args:
       txt=content.format(arg=arg)  # If content is test {arg1} {arg2} it will output test {arg1} {arg2}
       # <command> {arg1} {arg2}
